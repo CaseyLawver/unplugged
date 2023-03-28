@@ -99,6 +99,14 @@ body {
   text-align: left;
 }
 
+img{
+  width: 100%;
+}
+
+figure{
+  margin: 0;
+}
+
 a {
   color: #e2e3ed;
   text-decoration: none;
@@ -192,6 +200,14 @@ header nav ul {
   color: #3a3a3a;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 footer {
   text-align: center;
   flex-direction: column;
@@ -232,7 +248,11 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
 }
+
 
 aside {
   display: flex;
@@ -272,6 +292,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
@@ -311,7 +333,6 @@ input[type=button] {
   width: 55%;
   margin: 20px 0;
 }
-
 
 /*==========================================================
 About Page
@@ -528,6 +549,10 @@ FAQ Page
     display: none;
   }
 
+  .hero-area{
+    min-height: 600px;
+  }
+
   aside .content-wrapper {
     margin: 50px 0;
     display: flex;
@@ -564,6 +589,7 @@ FAQ Page
   .reviews article {
     display: flex;
     justify-content: space-between;
+
   }
 
   .reviews h2 {
@@ -572,6 +598,11 @@ FAQ Page
 
   .reviews article div {
     width: 49%;
+    margin-left: 15px;
+  }
+
+  .reviews figure{
+    width: 50%;
   }
 
   .reviews h3 {
@@ -696,7 +727,7 @@ FAQ Page
 
 
   .hero-area h1 {
-    width: 60%;
+    width: 80%;
     font-size: 3.75em;
   }
 
