@@ -146,6 +146,10 @@ address {
   font-style: normal;
 }
 
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
 
 .content-wrapper {
   width: 90%;
