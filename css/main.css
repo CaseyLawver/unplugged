@@ -99,11 +99,11 @@ body {
   text-align: left;
 }
 
-img{
+img {
   width: 100%;
 }
 
-figure{
+figure {
   margin: 0;
 }
 
@@ -123,6 +123,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -135,7 +136,7 @@ h4 {
 
 p {
   font-size: .875em;
-  line-height: 1.125em;
+  line-height: 1.285em;
 }
 
 ul {
@@ -147,8 +148,8 @@ address {
 }
 
 .features i {
-	  font-size: 3.75em;
-    margin-bottom: 40px;
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .content-wrapper {
@@ -195,13 +196,16 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px 0 0 0;
 }
 
 .header-divider {
   width: 100%;
   height: 1px;
-  margin: 10px 0 20px 0;
-  color: #3a3a3a;
+  margin: 10px 0 10px 0;
+  background-color: #3a3a3a;
 }
 
 header figure {
@@ -258,7 +262,7 @@ footer .copyright {
 footer i {
   font-size: 1.75em;
   background-color: #527158;
-  
+
 }
 
 /*--------Mobile Hompage Styles--------*/
@@ -564,11 +568,16 @@ FAQ Page
     justify-content: space-between;
   }
 
+  header nav ul li {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
   .header-divider {
     display: none;
   }
 
-  .hero-area{
+  .hero-area {
     min-height: 600px;
   }
 
@@ -603,10 +612,18 @@ FAQ Page
     width: 62%;
   }
 
+  #wifi.features-item-description {
+    margin-bottom: 25px;
+  }
+
+  #tent.features-item-description {
+    margin-bottom: 10px;
+  }
+  
   .features i {
     margin-bottom: 30px;
   }
-  
+
   /*Reviews*/
 
   .reviews article {
@@ -624,7 +641,7 @@ FAQ Page
     margin-left: 15px;
   }
 
-  .reviews figure{
+  .reviews figure {
     width: 50%;
   }
 
@@ -659,6 +676,10 @@ FAQ Page
     line-height: 1.285;
   }
 
+  footer .social-icons p {
+    margin: 0 20px 0 20px;
+  }
+
   footer .copyright {
     width: 100%;
   }
@@ -676,6 +697,7 @@ FAQ Page
 
   .mission-content p {
     width: 45%;
+    margin: 0;
   }
 
   .map figure {
@@ -693,7 +715,7 @@ FAQ Page
   }
 
   .contact-content h4 {
-    font-size: 1.875em;
+    font-size: 1.5em;
   }
 
   /* ==========================================================================
@@ -792,6 +814,13 @@ FAQ Page
     margin-bottom: 50px;
   }
 
+  #wifi.features-item-description {
+    margin-bottom: 25px;
+  }
+
+  
+  
+
   /* ==========================================================================
    About Page
    ========================================================================== */
@@ -817,8 +846,8 @@ FAQ Page
     font-size: 3em;
   }
 
-.faq h4,
-.faq p {
+  .faq h4,
+  .faq p {
     font-size: 1.125em;
     line-height: 1;
   }
@@ -831,13 +860,16 @@ FAQ Page
   }
 
 
+  footer .social-icons p {
+    margin: 0 20px 0 20px;
+  }
+
   footer .copyright {
     width: 40%;
     text-align: center;
   }
+
 }
-
-
 
 /* ==========================================================================
    Print styles.
